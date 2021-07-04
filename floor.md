@@ -31,5 +31,5 @@ player.onChat("run", function () {
 })
 ```
 ```package
-minecraft-ww1984=github:ReWrite-Media/ww1984-ts
+minecraft-ww1984=github:Sroka102/ww1984-ts
 ```
