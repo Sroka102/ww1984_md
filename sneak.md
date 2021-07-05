@@ -8,13 +8,13 @@
 # Stealth Mission
 
 ## Step 1
-Pomóż Wonder Woman przejść przez pokój bez wywoływania alarmu, unikaj laserów. Będzie musiała się zakraść i obezwładnić przestępcę.
+Pomoz Wonder Woman przejsc przez pokoj bez wywolywania alarmu, unikaj laserow. Bedzie musiala sie zakrasc i obezwladnic przestepce.
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman poruszy się w *kierunku* o *ilość* bloków.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the given *direction*.  
-``||ww:Takedown criminal <direction>||`` - Stealthily knock out the criminal in the given *direction*.  
-``||loops:repeat <number> times||`` - Repeat code the given *number* of times.  
+**Dostępne Bloki:**  
+``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.  
+``||ww:Atakuj przestępcę <w kierunku>||`` - Bezszelestnie powali przestępcę atakując w podanym *kierunku*.  
+``||loops:powtóż <ile> razy||`` - Powtarza fragment kodu podaną *ilość* razy.  
 
 ```ghost
 player.onChat("run", function () {
