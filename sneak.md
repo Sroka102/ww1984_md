@@ -8,10 +8,10 @@
 # Stealth Mission
 
 ## Step 1
-Pomoz Wonder Woman przejsc przez pokoj bez wywolywania alarmu, unikaj laserow. Bedzie musiala sie zakrasc i obezwladnic przestepce.
+Pomoz Wonder Woman przejsc przez pokoj bez wywolywania alarmu, unikaj laserow. Bedzie musiala sie zakrasc i obezwladnić przestepce.
 
 **Dostępne Bloki:**  
-``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Idź <w kierunku> <ilość> kroków||`` - Wonder Woman poruszy sie *w kierunku* o *ilość* kroków. 
 ``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.  
 ``||ww:Atakuj przestępcę <w kierunku>||`` - Bezszelestnie powali przestępcę atakując w podanym *kierunku*.  
 ``||loops:powtórz <ile> razy||`` - Powtarza fragment kodu podaną *ilość* razy.  

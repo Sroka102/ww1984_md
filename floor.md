@@ -11,7 +11,7 @@
 Kolory na ścianie wydają się pasować do kolorów na podłodze. Pomóż Wonder Woman przejść po kolorowych blokach w kolejności pokazanej na ścianie. To powinno otworzyć sekretne drzwi w tylnej ścianie.
 
 **Dostępne Bloki:**  
-``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Idź <w kierunku> <ilość> kroków||`` - Wonder Woman poruszy sie *w kierunku* o *ilość* kroków. 
 ``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.   
 ``||loops:powtórz <ile> razy||`` - Powtarza fragment kodu podaną *ilość* razy.   
 

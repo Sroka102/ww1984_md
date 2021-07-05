@@ -11,7 +11,7 @@
 Przestępca, który zaplanował napad, ukrywa się w tłumie. Pomóż Wonder Woman sprawdzić każdą osobę, aby dowiedzieć się, kto jest złodziejem w przebraniu. Następnie użyj lassa prawdy, aby uzyskać pojmać przestępcę i odzyskać ostatni element obrazu.
 
 **Dostępne Bloki:**  
-``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Idź <w kierunku> <ilość> kroków||`` - Wonder Woman poruszy sie *w kierunku* o *ilość* kroków. 
 ``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.   
 ``||ww:uczestnik jest złodziejem <w kierunku>||`` - Zwraca wartość boolowską (*prawda* | *fałsz*) zależnie od tego, czy uczestnik jest złodziejem czy nie.  
 ``||ww:Łap lassem złodzieja <w kierunku>||`` - Powoduje użycie przez Wonder Woman lassa prawdy na złodzieju w ustalonym *kierunku*.  

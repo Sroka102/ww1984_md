@@ -11,9 +11,9 @@
 Pomóż Wonder Woman umieścić szklane bloki na wiązkach światła, aby dopasować kolor do wzoru widocznego na ścianie. Musisz jej powiedzieć, gdzie ma się poruszać i jakie kolory umieścić. 
 
 **Dostępne Bloki:**  
-``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Idź <w kierunku> <ilość> kroków||`` - Wonder Woman poruszy sie *w kierunku* o *ilość* kroków. 
 ``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.  
-``||ww:Umieść <kolor szklanego bloku> <w kierunku>||`` - Umieszcza blok kolorowego szkła w ustalonym kierunku.  
+``||ww:Umieść <kolor szklanego bloku> <w kierunku>||`` - Umieszcza blok kolorowego szkła w ustalonym *kierunku*.  
 ``||loops:powtórz <ile> razy||`` - Powtarza ustalony fragment kodu podaną *ilość* razy.  
 
 ```ghost
