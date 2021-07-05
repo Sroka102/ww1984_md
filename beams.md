@@ -8,13 +8,13 @@
 # Beams of Color
 
 ## Step 1
-Help Wonder Woman place stained glass on top of the beams of light to match the color pattern shown on the wall. You'll need to tell her where to move and which colors to place. 
+Pomóż Wonder Woman umieścić szklane bloki na wiązkach światła, aby dopasować kolor do wzoru widocznego na ścianie. Musisz jej powiedzieć, gdzie ma się poruszać i jakie kolory umieścić. 
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that direction the specified number of blocks.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the specified direction.  
-``||ww:Place <color> Stained Glass <direction>||`` - Place a piece of colored stained glass in the specified direction.  
-``||loops:repeat <number> times||`` - Repeat code the specified number of times.  
+**Dostępne Bloki:**  
+``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.  
+``||ww:Umieść <kolor szklanego bloku> <w kierunku>||`` - Umieszcza blok kolorowego szkła w ustalonym kierunku.  
+``||loops:powtórz <ile> razy||`` - Powtarza ustalony fragment kodu podaną *ilość* razy.  
 
 ```ghost
 player.onChat("run", function () {

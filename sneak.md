@@ -14,7 +14,7 @@ Pomoz Wonder Woman przejsc przez pokoj bez wywolywania alarmu, unikaj laserow. B
 ``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
 ``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.  
 ``||ww:Atakuj przestępcę <w kierunku>||`` - Bezszelestnie powali przestępcę atakując w podanym *kierunku*.  
-``||loops:powtóż <ile> razy||`` - Powtarza fragment kodu podaną *ilość* razy.  
+``||loops:powtórz <ile> razy||`` - Powtarza fragment kodu podaną *ilość* razy.  
 
 ```ghost
 player.onChat("run", function () {

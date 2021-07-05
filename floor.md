@@ -8,12 +8,12 @@
 # Dance Floor
 
 ## Step 1
-The colors on the wall seem to match the colors on the floor. Help Wonder Woman move over the colored blocks in the same sequence as seen on the wall. That should unlock a secret door on the back wall.
+Kolory na ścianie wydają się pasować do kolorów na podłodze. Pomóż Wonder Woman przejść po kolorowych blokach w kolejności pokazanej na ścianie. To powinno otworzyć sekretne drzwi w tylnej ścianie.
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that *direction* the given *number* of blocks.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the given *direction*.  
-``||loops:repeat <number> times||`` - Repeat code the given *number* of times.  
+**Dostępne Bloki:**  
+``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.   
+``||loops:powtórz <ile> razy||`` - Powtarza fragment kodu podaną *ilość* razy.   
 
 ```ghost
 player.onChat("run", function () {

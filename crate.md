@@ -8,17 +8,17 @@
 # Suspicious Crates
 
 ## Step 1
-Help Wonder Woman move through the crates and find the missing painting piece. Search each one and if she finds the missing puzzle piece, have her break the box to get it.
+Pomóż Wonder Woman przejść przy skrzyniach i znaleźć brakujący fragment obrazu. Musi ona przesukać każdą skrzynię, jeśli odkryje tą z elementem obrazu, niech ją rozbije aby aby go odzyskać.
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that *direction* the given *number* of blocks.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the given *direction*.  
-``||ww:painting inside crate <direction>||`` - Return a boolean (*true* | *false*) of whether the painting is found hidden in the given *direction*.  
-``||ww:Break crate <direction>||`` - Instruct Wonder Woman to try and retrieve the hidden painting.  
-``||loops:repeat <number> times||`` - Repeat code the given *number* of times.  
-``||loops:while <boolean>||`` - Repeatedly run the code while the boolean is *true*.  
-``||logic:if / then||`` - Checks if a condition is *true* and then does something if it is.  
-``||logic:not <boolean>||`` - Switches the operation of a condition. Example: *while <true>* vs. *while not <true>*  
+**Dostępne Bloki:**  
+``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.  
+``||ww:obraz w skrzyni <w kierunku>||`` - Sprawdza w ustalonym *kierunku* i zwraca wartość boolowską (*prawda* | *fałsz*) zależnie od tego, czy wykryje element obrazu wewnątrz skrzyni.  
+``||ww:Rozbij skrzynię <w kierunku>||`` - Kieruje Wonder Woman aby odzyskała ukryty element obrazu z ustalonego *kierunku*.  
+``||loops:powtórz <ile> razy||`` - Powtarza ustalony fragment kodu podaną *ilość* razy. 
+``||loops:dopuki <wartość boolowska>||`` - Powtarza ustalony fragment kodu dopuki podana wartość boolowska ma wartość *prawda*.  
+``||logic:jeśli / to||`` - Sprawdza czy warunek jest *prawda* , jeśli tak to wykonuje podane instrukcje.  
+``||logic:nie <wartość boolowska>||`` - Zmienia wartość boolowską na przeciwną. Na przykład działanie warunku: *dopuki <prawda>* na *dopuki nie <prawda>*  
 
 ```ghost
 player.onChat("run", function () {

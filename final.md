@@ -8,17 +8,17 @@
 # Hidden in Plain Sight
 
 ## Step 1
-The criminal who planned the heist is hidden among the crowd. Help Wonder Woman check each person to figure out which is the thief in disguise and then use the lasso of truth to get the final painting piece.
+Przestępca, który zaplanował napad, ukrywa się w tłumie. Pomóż Wonder Woman sprawdzić każdą osobę, aby dowiedzieć się, kto jest złodziejem w przebraniu. Następnie użyj lassa prawdy, aby uzyskać pojmać przestępcę i odzyskać ostatni element obrazu.
 
-**Blocks Available:**  
-``||ww:Move <direction> by <number>||`` - Wonder Woman will move in that *direction* the given *number* of blocks.  
-``||ww:Turn <direction>||`` - Wonder Woman will turn in the given *direction*.  
-``||ww:attendee is the thief <direction>||`` - Return a boolean (*true* | *false*) of whether the attendee is the thief or not.  
-``||ww:Lasso thief <direction>||`` - Causes Wonder Woman to use her lasso of truth on the thief.  
-``||loops:repeat <number> times||`` - Repeat code the given *number* of times.  
-``||loops:while <boolean>||`` - Repeatedly run the code while the boolean is *true*.  
-``||logic:if / then||`` - Checks if a condition is *true* and then does something if it is.  
-``||logic:not <boolean>||`` - Switches the operation of a condition. Example: *while <true>* vs. *while not <true>*  
+**Dostępne Bloki:**  
+``||ww:Idź <w kierunku> <number> kroków||`` - Wonder Woman poruszy sie w *kierunku* *ilosc* kroków.  
+``||ww:Obróć <w kierunku>||`` - Wonder Woman obruci się w podanym *kierunku*.   
+``||ww:uczestnik jest złodziejem <w kierunku>||`` - Zwraca wartość boolowską (*prawda* | *fałsz*) zależnie od tego, czy uczestnik jest złodziejem czy nie.  
+``||ww:Łap lassem złodzieja <w kierunku>||`` - Powoduje użycie przez Wonder Woman lassa prawdy na złodzieju w ustalonym *kierunku*.  
+``||loops:powtórz <ile> razy||`` - Powtarza ustalony fragment kodu podaną *ilość* razy. 
+``||loops:dopuki <wartość boolowska>||`` - Powtarza ustalony fragment kodu dopuki podana wartość boolowska ma wartość *prawda*.  
+``||logic:jeśli / to||`` - Sprawdza czy warunek jest *prawda* , jeśli tak to wykonuje podane instrukcje.  
+``||logic:nie <wartość boolowska>||`` - Zmienia wartość boolowską na przeciwną. Na przykład działanie warunku: *dopuki <prawda>* na *dopuki nie <prawda>*  
 
 ```ghost
 player.onChat("run", function () {
