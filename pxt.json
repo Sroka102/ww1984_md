@@ -1,5 +1,5 @@
 {
-    "name": "minecraft-ww1984-md",
+    "name": "ww1984-md",
     "version": "1.13.0",
     "dependencies": {
         "core": "*",
@@ -11,7 +11,9 @@
         "beams.md",
         "floor.md",
         "sneak.md",
-        "final.md"
+        "final.md",
+        "main.ts",
+        "no_coding.md"
 
     ],
     "supportedTargets": [
