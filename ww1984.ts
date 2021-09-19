@@ -49,7 +49,7 @@ namespace ww {
     /**
      * Wonder Woman przejdzie n kroków w kierunku d
      */
-    //% block="Idź %d %n kroków"
+    //% block="Idz %d %n krokow"
     export function moveWW(d: Direction, n: number): void {
         for (let i = 0; i < n; i++){
             if(shouldStop()) return;
@@ -63,7 +63,7 @@ namespace ww {
     /**
      * Obraca Wonder Woman w kierunku t
      */
-    //% block="Obróć %t"
+    //% block="Obroc %t"
     export function turnWW(t: TurnDirection): void {
         if(shouldStop()) return;
 
@@ -76,7 +76,7 @@ namespace ww {
      * Umieszcza blok w podanym kierunku d
      * @param block the block
      */    
-    //% block="Umieść %block blok szkła %d"
+    //% block="Umiesc %block blok szkla %d"
     export function placeBlock(block: BeamsGlass, d: Direction): void {
         if(shouldStop()) return;
 
@@ -105,7 +105,7 @@ namespace ww {
     /**
      * Rozbija blok w ustalonym kierunku d
      */
-    //% block="Rozbij skrzynię %d"
+    //% block="Rozbij skrzynie %d"
     export function retrievePainting(d: Direction): void {
         if(shouldStop()) return;
 
@@ -117,7 +117,7 @@ namespace ww {
     /**
      * Sprawdza występowanie zbira w ustalonym kierunku d
      */
-    //% block="uczestnik jest złodziejem %d"
+    //% block="uczestnik jest zlodziejem %d"
     export function locateGoon(d: Direction): boolean {
         if(shouldStop()) return false;
 
@@ -131,7 +131,7 @@ namespace ww {
     /**
      * Używa lassa do złapania postaci w ustalonym kierunku d
      */
-    //% block="Łap lassem złodzieja %d"
+    //% block="Lap lassem zlodzieja %d"
     export function apprehendGoon(d: Direction): void {
         if(shouldStop()) return;
 
@@ -143,7 +143,7 @@ namespace ww {
     /**
      * Bezszelestnie atakuje postać w ustalonym kierunku d
      */
-    //% block="Atakuj przestępcę %d"
+    //% block="Atakuj przestepce %d"
     export function takedownGoon(d: Direction): void {
         if(shouldStop()) return;
 
