@@ -32,5 +32,5 @@ player.onChat("run", function () {
 })
 ```
 ```package
-ww1984-md=github:Sroka102/ww1984-md
+ww1984_md=github:Sroka102/ww1984_md
 ```
