@@ -44,5 +44,5 @@ player.onChat("run", function () {
 ```
 
 ```package
-ww1984md=github:Sroka102/ww1984_md
+minecraft-ww1984=github:Sroka102/ww1984_ts
 ```
