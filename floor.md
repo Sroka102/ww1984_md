@@ -6,6 +6,9 @@
 ### @explicitHints 1
 
 # Dance Floor
+# ```package
+# minecraft-ww1984=github:Sroka102/ww1984-ts
+# ```
 
 ## Step 1
 Kolory na ścianie wydają się pasować do kolorów na podłodze. Pomóż Wonder Woman przejść po kolorowych blokach w kolejności pokazanej na ścianie. To powinno otworzyć sekretne drzwi w tylnej ścianie.
@@ -30,6 +33,7 @@ player.onChat("run", function () {
     ww.turnWW(RIGHT_TURN)
 })
 ```
+
 ```package
-minecraft-ww1984=github:Sroka102/ww1984-ts
+ww1984md=github:Sroka102/ww1984_md
 ```
