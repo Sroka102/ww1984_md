@@ -31,6 +31,7 @@ player.onChat("run", function () {
     ww.placeBlock(BeamsGlass.LimeStainedGlass, Direction.Right)
 })
 ```
+
 ```package
-ww1984md=github:Sroka102/ww1984_md
+minecraft-ww1984=github:Sroka102/ww1984_ts
 ```
