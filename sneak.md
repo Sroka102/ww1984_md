@@ -6,6 +6,9 @@
 ### @explicitHints 1
 
 # Stealth Mission
+# ```package
+# minecraft-ww1984=github:Sroka102/ww1984-ts
+# ```
 
 ## Step 1
 Pomoz Wonder Woman przejsc przez pokoj bez wywolywania alarmu, unikaj laserow. Bedzie musiala sie zakrasc i obezwladnić przestepce.
